@@ -1,0 +1,97 @@
+html, body{
+	background: url("C:/Users/nathan/Pictures/documents-export-2014-05-10/KK1D1835.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.home_page{
+	min-height: 100%;
+	position: relative;
+}
+
+a{
+	text-decoration:inherit;
+	color: inherit;
+}
+section{
+	display: inline-block;
+	clear: both;
+	float: left;
+	margin: 10% 0 0 1%;
+	text-align: left;
+	background: rgba(0, 0, 10, .75);
+	border-radius: 10px;
+}
+section h2{
+	color: rgb(230, 230, 230);
+	font-family: Impact;
+	font-size: 80px;
+	padding: 8px;
+	margin: 0 auto;
+}
+section span{
+	font-size: 24px;
+	font-family: Charcoal;
+}
+article p{
+	display: inline-block;
+	clear: both;
+	float: center;
+	font-family: Charcoal;
+	color: rgb(230, 230, 230);
+	background: rgba(0, 0, 10, 0.75);
+	font-size: 26px;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 0 auto;
+
+}
+article{
+	position: absolute;
+	display: block;
+	clear: both;
+	left: 11%;
+	top: 49%;
+	text-align: center;
+}
+
+header a{
+	display: inline;
+	padding:15px;
+}
+
+header{
+	color: rgba(220, 220, 220, 1);
+	font-size: 22px;
+	font-family: Helvetica;
+	text-align: center;
+	padding-top: 15px;
+	border-radius: 5px;
+}
+footer{
+	position: absolute;
+	right: 8px;
+	bottom: 16px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	background: rgba(0, 0, 0, 0.4);
+	height: 30px;
+	line-height: 1px;
+	padding: 0 2px 0 2px;
+	border-radius: 5px;
+
+}
+
+header a:hover{
+	transition: .25s ease-in-out;
+	transition-property: color;
+	color: rgb(255, 255, 255);
+	padding: 15px;
+}
+/*section{
+	font-family: Charcoal;
+	color: rgb(70, 48, 48);
+}*/
